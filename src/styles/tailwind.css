@@ -621,7 +621,8 @@ video {
 
 /* ****************   SHARED   **************** */
 
-.container {
+.test {
+  /* filter:grayscale(100%) */
 }
 
 /* ****************   HERO SECTION   **************** */
@@ -640,6 +641,11 @@ video {
 #hero-section p {
   color: white;
   font-family: 'Open Sans', sans-serif;
+}
+
+/* ****************   PODCAST LIST SECTION   **************** */
+
+#podcast_list-section.section-background {
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
