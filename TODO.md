@@ -1,0 +1,1 @@
+- [ ] css animation, rotate card on hover
