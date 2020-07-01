@@ -629,7 +629,7 @@ video {
 
 #hero-section.section-background {
   /* background-color: #FF8A4C; */
-  height: 100vh;
+  height: 85vh;
 }
 
 #hero-section h1 {
@@ -639,7 +639,9 @@ video {
 }
 
 #hero-section p {
-  color: white;
+  --text-opacity: 1;
+  color: #e2e8f0;
+  color: rgba(226, 232, 240, var(--text-opacity));
   font-family: 'Open Sans', sans-serif;
 }
 

@@ -11,7 +11,7 @@
 /* ****************   HERO SECTION   **************** */
 #hero-section.section-background {
   /* background-color: #FF8A4C; */
-  height: 100vh;
+  height: 85vh;
 }
 
 #hero-section h1 {
@@ -20,7 +20,7 @@
   letter-spacing: 3.5px;
 }
 #hero-section p {
-  color: white;
+  @apply .text-gray-300;
   font-family: 'Open Sans', sans-serif;
 }
 
