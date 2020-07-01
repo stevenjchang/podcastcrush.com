@@ -619,6 +619,29 @@ video {
   }
 }
 
+/* ****************   SHARED   **************** */
+
+.container {
+}
+
+/* ****************   HERO SECTION   **************** */
+
+#hero-section.section-background {
+  /* background-color: #FF8A4C; */
+  height: 85vh;
+}
+
+#hero-section h1 {
+  font-size: 4rem;
+  font-family: 'Yellowtail', cursive;
+  letter-spacing: 3.5px;
+}
+
+#hero-section p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
