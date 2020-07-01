@@ -13,7 +13,8 @@ const HeroSection = () => {
           <div className="right w-1/2 p-16">
             <div className="c text-center">
               <h1 className="text-white text-6xl">PodcastCrush.com</h1>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              <h3 className="text-white text-xl">Find the Podcast you love</h3>
+              <br />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo rem, repellat officiis odio mollitia.
