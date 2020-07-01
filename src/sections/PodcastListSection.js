@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ name, description, imageUrl, categories }) => {
   return (
-    <div className="w-1/3 flex flex-col justify-center items-center">
+    <div className="w-1/3 flex flex-col justify-center items-center py-12">
       <div className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
@@ -22,6 +22,8 @@ const PodcastListSection = () => {
   return (
     <>
       <div id="podcast_list-section" className="section-background">
+        <br />
+        <br />
         <div className="container mx-auto flex flex-wrap">
           {data.map((podcast, idx) => (
             <Card key={idx} {...podcast} />
