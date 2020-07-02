@@ -3,15 +3,17 @@
 @tailwind components;
 
 /* ****************   SHARED   **************** */
-.test {
-  /* filter:grayscale(100%) */
+h3 {
+  @apply .text-2xl;
 }
-
+h4 {
+  @apply .text-lg;
+}
 
 /* ****************   HERO SECTION   **************** */
 #hero-section.section-background {
   /* background-color: #FF8A4C; */
-  height: 100vh;
+  height: 85vh;
 }
 
 #hero-section h1 {
@@ -20,8 +22,8 @@
   letter-spacing: 3.5px;
 }
 #hero-section p {
-  color: white;
   font-family: 'Open Sans', sans-serif;
+  @apply text-gray-300;
 }
 
 
