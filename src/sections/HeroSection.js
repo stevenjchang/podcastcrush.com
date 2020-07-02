@@ -25,6 +25,12 @@ const HeroSection = () => {
                 podcasts I've heard. Hope you can use it to discover a new
                 podcast that you like.
               </p>
+              <br />
+              <p>
+                I've hand-picked not only my favorite podcasts, but also
+                selected a few of the best moments or episodes, so you can
+                listen for yourself.
+              </p>
             </div>
           </div>
         </div>

@@ -621,8 +621,12 @@ video {
 
 /* ****************   SHARED   **************** */
 
-.test {
-  /* filter:grayscale(100%) */
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.125rem;
 }
 
 /* ****************   HERO SECTION   **************** */
@@ -639,10 +643,10 @@ video {
 }
 
 #hero-section p {
+  font-family: 'Open Sans', sans-serif;
   --text-opacity: 1;
   color: #e2e8f0;
   color: rgba(226, 232, 240, var(--text-opacity));
-  font-family: 'Open Sans', sans-serif;
 }
 
 /* ****************   PODCAST LIST SECTION   **************** */
