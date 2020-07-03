@@ -10,9 +10,9 @@ h4 {
   @apply .text-lg;
 }
 
+
 /* ****************   HERO SECTION   **************** */
 #hero-section.section-background {
-  /* background-color: #FF8A4C; */
   height: 85vh;
 }
 
@@ -26,6 +26,11 @@ h4 {
   @apply text-gray-300;
 }
 
+
+/* ****************   INTRO SECTION   **************** */
+#intro-section p {
+  font-family: 'Caveat', cursive;
+}
 
 /* ****************   FEATURE SECTION   **************** */
 
