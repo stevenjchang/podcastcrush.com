@@ -191,6 +191,25 @@ export const podcasts = [
     categories: ["fantasy sports"],
   },
   {
+    name: "Flying Coach With Steve Kerr and Pete Carroll",
+    description:
+      "Steve Kerr and Pete Carroll discuss their respective coaching and leadership experiences, how they run their teams, where the NBA and NFL overlap and differ, and the formative influences in their careers.",
+    imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/523606.jpg",
+    categories: ["sports"],
+  },
+  {
+    name: "",
+    description: "des",
+    imageUrl: "",
+    categories: [""],
+  },
+  {
+    name: "",
+    description: "des",
+    imageUrl: "",
+    categories: [""],
+  },
+  {
     name: "",
     description: "des",
     imageUrl: "",
