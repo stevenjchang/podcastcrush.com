@@ -1,33 +1,51 @@
 import React from "react";
 
-const data = [1, 2, 3, 4];
+import { podcasts } from "data/podcasts.js";
+const categories = [
+  {
+    name: "sports",
+  },
+  {
+    name: "tech",
+  },
+  {
+    name: "economics",
+  },
+  {
+    name: "entertainment",
+  },
+  {
+    name: "coding",
+  },
+  {
+    name: "politics",
+  },
+];
 
-const Category = () => {
+const Category = ({ name }) => {
   return (
-    <div className="c">
-      <h2 className="text-center text-4xl">Category</h2>
+    <div className="mb-32">
+      <h2 className="text-center text-4xl capitalize">{name}</h2>
       <ol>
-        {data.map((podcast, idx) => (
-          <li className="" key={idx}>
-            <Card />
-          </li>
-        ))}
+        {podcasts
+          .filter((podcast, idx) => podcast.categories.includes(name))
+          .map((podcast, idx) => (
+            <li className="" key={idx}>
+              <Card {...podcast} />
+            </li>
+          ))}
       </ol>
     </div>
   );
 };
 
-const Card = () => {
+const Card = ({ name, description, imageUrl }) => {
   return (
     <div className="flex justify-center">
       <div className="relative card-inner border my-8 p-12 w-full lg:w-2/3 flex">
-        <img
-          className="card-image self-start m-2"
-          src="https://secureimg.stitcher.com/feedimagesplain328/7668.jpg"
-          alt=""
-        />
+        <img className="card-image self-start m-2" src={imageUrl} alt="" />
         <div className="ml-12">
-          <h3 className="mb-4">Planet Money</h3>
+          <h3 className="mb-4">{name}</h3>
           {/* <h4 className="mb-8">Episode: Why this is important</h4> */}
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
@@ -50,7 +68,9 @@ const PodcastListAllRankings = () => {
   return (
     <div id="all_rankings-section" className="section-background">
       <div className="container mx-auto">
-        <Category />
+        {categories.map((category, idx) => (
+          <Category key={idx} {...category} />
+        ))}
       </div>
     </div>
   );
