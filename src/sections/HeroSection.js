@@ -13,24 +13,9 @@ const HeroSection = () => {
           <div className="right w-1/2 p-16">
             <div className="c text-center">
               <h1 className="text-white text-6xl">PodcastCrush.com</h1>
-              <h3 className="text-white text-xl">Find the Podcast you love</h3>
-              <br />
-              <p className="">
-                I love listening to a variety of podcasts. Sometimes, I listen
-                to something so good that I just want to share it.
-              </p>
-              <br />
-              <p>
-                Here are some of my favorite moments from the past year of
-                podcasts I've heard. Hope you can use it to discover a new
-                podcast that you like.
-              </p>
-              <br />
-              <p>
-                I've hand-picked not only my favorite podcasts, but also
-                selected a few of the best moments or episodes, so you can
-                listen for yourself.
-              </p>
+              <h3 className="text-white text-xl mt-4">
+                Find the Podcast you love
+              </h3>
             </div>
           </div>
         </div>

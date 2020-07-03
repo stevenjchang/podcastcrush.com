@@ -9,7 +9,7 @@ const categories = [
     name: "tech",
   },
   {
-    name: "economics",
+    name: "economics", // money?
   },
   {
     name: "entertainment",
@@ -19,6 +19,12 @@ const categories = [
   },
   {
     name: "politics",
+  },
+  {
+    name: "general",
+  },
+  {
+    name: "fantasy sports",
   },
 ];
 

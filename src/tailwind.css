@@ -632,7 +632,6 @@ h4 {
 /* ****************   HERO SECTION   **************** */
 
 #hero-section.section-background {
-  /* background-color: #FF8A4C; */
   height: 85vh;
 }
 
@@ -648,6 +647,14 @@ h4 {
   color: #e2e8f0;
   color: rgba(226, 232, 240, var(--text-opacity));
 }
+
+/* ****************   INTRO SECTION   **************** */
+
+#intro-section p {
+  font-family: 'Caveat', cursive;
+}
+
+/* ****************   FEATURE SECTION   **************** */
 
 /* ****************   PODCAST LIST SECTION   **************** */
 
