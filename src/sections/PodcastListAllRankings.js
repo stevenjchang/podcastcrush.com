@@ -5,7 +5,7 @@ const data = [1, 2, 3, 4];
 const Category = () => {
   return (
     <div className="c">
-      <h2 className="c">Category</h2>
+      <h2 className="text-center text-4xl">Category</h2>
       <ol>
         {data.map((podcast, idx) => (
           <li className="" key={idx}>
@@ -20,15 +20,15 @@ const Category = () => {
 const Card = () => {
   return (
     <div className="flex justify-center">
-      <div className="relative card-inner border my-8 p-16 w-full lg:w-2/3 flex">
+      <div className="relative card-inner border my-8 p-12 w-full lg:w-2/3 flex">
         <img
           className="card-image self-start m-2"
           src="https://secureimg.stitcher.com/feedimagesplain328/7668.jpg"
           alt=""
         />
-        <div className="ml-16">
-          <h3 className="">Planet Money</h3>
-          <h4 className="mb-8">Episode: Why this is important</h4>
+        <div className="ml-12">
+          <h3 className="mb-4">Planet Money</h3>
+          {/* <h4 className="mb-8">Episode: Why this is important</h4> */}
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
             dolore. Quidem modi beatae ut suscipit magnam exercitationem nulla
