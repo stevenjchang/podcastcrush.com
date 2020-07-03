@@ -691,6 +691,29 @@ h4 {
   transform: rotateY(180deg);
 }
 
+/* ****************   PODCAST LIST ALL RANKINGS SECTION   **************** */
+
+#all_rankings-section ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+
+#all_rankings-section ol li {
+  counter-increment: my-awesome-counter;
+}
+
+#all_rankings-section ol li .card-inner::before {
+  content: counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: -25px;
+}
+
+#all_rankings-section .card-image {
+  width: 150px;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
