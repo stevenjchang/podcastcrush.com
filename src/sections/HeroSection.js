@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="c text-center">
               <h1 className="text-white text-6xl">PodcastCrush.com</h1>
               <h3 className="text-white text-xl mt-4">
-                Find the Podcast you love
+                Find the Podcast you'll love
               </h3>
             </div>
           </div>
