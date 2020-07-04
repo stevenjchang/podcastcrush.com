@@ -1,4 +1,4 @@
-## To view my complete portfolio, visit: [stevenjchang.com](https://stevenjchang.com)
+### To view my complete portfolio, visit: [stevenjchang.com](https://stevenjchang.com)
 
 ---
 
