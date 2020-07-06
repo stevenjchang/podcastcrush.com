@@ -33,7 +33,9 @@ h4 {
 }
 
 /* ****************   FEATURE SECTION   **************** */
-
+#feature-section {
+  opacity: .87;
+}
 
 /* ****************   PODCAST LIST SECTION   **************** */
 

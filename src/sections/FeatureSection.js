@@ -1,33 +1,31 @@
 import React from "react";
 
+const Card = ({ heading, subHeading, description, imageUrl }) => {
+  return (
+    <div className="lg:w-1/2 flex flex-col justify-center items-center p-20">
+      <h2 className="text-3xl text-orange-600">Featured Episode</h2>
+      <div className="image-container flex justify-start w-full mt-12">
+        <img className="w-32" src={imageUrl} alt="" />
+        <div className="ml-8">
+          <h3 className="text-lg">{heading}</h3>
+          <p className="text-sm text-gray-900">{subHeading}</p>
+        </div>
+      </div>
+
+      <div className="mt-8 px-12 py-8 bg-white rounded-lg">
+        <p className="text-sm">{description}</p>
+      </div>
+    </div>
+  );
+};
+
 const FeatureSection = () => {
   return (
-    <div
-      id="feature-section"
-      className="section-background bg-gray-200 pt-2 opacity-75"
-    >
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl mt-16">Featured Episode</h2>
-        <div className="flex justify-center">
-          <div className="relative card border m-32 mt-8 p-16 w-full lg:w-2/3 flex">
-            <img
-              className="self-start"
-              src="https://secureimg.stitcher.com/feedimagesplain328/523606.jpg"
-              alt=""
-            />
-            <div className="ml-16">
-              <h3 className="mb-4">Flying Coach</h3>
-              <p className="mb-8">How a book about tennis changed everything</p>
-              <p className="text-sm">
-                Steve Kerr and Pete Carroll talk with Michael Lewis
-                ('Moneyball,' 'The Blind Side,' and 'The Big Short') about the
-                extraordinary influence of Timothy Gallwey‘s book ‘The Inner
-                Game of Tennis.’
-                <br />
-                <br />
-              </p>
-            </div>
-          </div>
+    <div id="feature-section" className="section-background bg-gray-200">
+      <div className="container mx-auto">
+        <div className="flex">
+          <Card {...featuredPodcastData} />
+          <Card {...featuredEpisodeData} />
         </div>
       </div>
     </div>
@@ -35,3 +33,22 @@ const FeatureSection = () => {
 };
 
 export default FeatureSection;
+
+const featuredPodcastData = {
+  title: "Featured Podcast",
+  heading: "Boom/Bust: HQ Trivia",
+  subHeading: "The Rise and Fall of HQ Trivia",
+  description:
+    "An 8-part podcast takes a look the rise and fall of a well known tech startup in Silicon Valley. This is the first time I've encountered host Alyssa Bereznak, and she instantly became one of my favs. Well done podcast overall, well edited and an interest topic. A podcast that I was surprised to hear was 2 years in the making",
+  imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/533084.jpg",
+  url: "",
+};
+const featuredEpisodeData = {
+  title: "Featured Episode",
+  heading: "Flying Coach",
+  subHeading: "How a book about tennis changed everything",
+  description:
+    "3 fascinating people discussed how a book about tennis book from the 90's changed everything. Steve Kerr remembers reading the book twice a year during his playing career. Pete Carroll incorporated the book into his coaching, and have given many of his players the book. Michael Lewis investigates.",
+  imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/523606.jpg",
+  url: "",
+};
