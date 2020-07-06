@@ -19,10 +19,11 @@ const FeatureSection = () => {
               <h3 className="mb-4">Flying Coach</h3>
               <p className="mb-8">How a book about tennis changed everything</p>
               <p className="text-sm">
-                Steve Kerr and Pete Carroll talk with Michael Lewis
-                ('Moneyball,' 'The Blind Side,' and 'The Big Short') about the
-                extraordinary influence of Timothy Gallwey‘s book ‘The Inner
-                Game of Tennis.’
+                3 fascinating people discussed how a book about tennis book from
+                the 90's changed everything. Steve Kerr remembers reading the
+                book twice a year during his playing career. Pete Carroll
+                incorporated the book into his coaching, and have given many of
+                his players the book. Michael Lewis investigates.
                 <br />
                 <br />
               </p>
