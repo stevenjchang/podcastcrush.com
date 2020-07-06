@@ -53,17 +53,7 @@ const Card = ({ name, description, imageUrl }) => {
         <div className="ml-12">
           <h3 className="mb-4">{name}</h3>
           {/* <h4 className="mb-8">Episode: Why this is important</h4> */}
-          <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-            dolore. Quidem modi beatae ut suscipit magnam exercitationem nulla
-            consequuntur dolore. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Harum fuga quos quibusdam.
-            <br />
-            <br />
-            Voluptas magnam ratione eius quaerat fuga libero ex, corrupti
-            perferendis blanditiis itaque! Pariatur quidem ullam eius obcaecati
-            laudantium?
-          </p>
+          <p className="text-sm">{description}</p>
         </div>
       </div>
     </div>

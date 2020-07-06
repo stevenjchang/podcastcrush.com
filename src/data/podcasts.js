@@ -37,8 +37,8 @@ export const podcasts = [
   },
   {
     name: "Planet Money",
-    description: "desc",
-    description2: `The economy explained. Imagine you could call up a friend and say, "Meet me at the bar and tell me what's going on with the economy." Now imagine that's actually a fun evening.`,
+    descriptionOriginal: "desc",
+    description: `The economy explained. Imagine you could call up a friend and say, "Meet me at the bar and tell me what's going on with the economy." Now imagine that's actually a fun evening.`,
     imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/7668.jpg",
     categories: ["economics"],
   },
@@ -107,7 +107,7 @@ export const podcasts = [
   },
   {
     name: "Smart Passive Income",
-    descriptions: `Pat Flynn from The Smart Passive Income Blog reveals all of his online business and blogging strategies, income sources and killer marketing tips and tricks so you can be ahead of the curve with your online business or blog. Discover how you can create multiple passive income streams that work for you so that you can have the time and freedom to do what you love, whether it's traveling the world, or just living comfortably at home. Although Pat confesses he is not a millionaire, he's been supporting his family 100% with passive income generated online, easily earning a six-figure salary while working only a few hours a week. Automation, outsourcing, crowdsourcing, search engine optimization, building authority and trust, niche sites, social media,`,
+    description: `Pat Flynn from The Smart Passive Income Blog reveals all of his online business and blogging strategies, income sources and killer marketing tips and tricks so you can be ahead of the curve with your online business or blog. Discover how you can create multiple passive income streams that work for you so that you can have the time and freedom to do what you love, whether it's traveling the world, or just living comfortably at home. `, //Although Pat confesses he is not a millionaire, he's been supporting his family 100% with passive income generated online, easily earning a six-figure salary while working only a few hours a week. Automation, outsourcing, crowdsourcing, search engine optimization, building authority and trust, niche sites, social media,
     imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/22069.jpg",
     categories: ["economics", "startup", "entrepreneur"],
   },
@@ -139,37 +139,37 @@ export const podcasts = [
     imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/89020.jpg",
     categories: ["sports"],
   },
-  {
-    name: "Accidental Tech Podcast",
-    description: "des",
-    imageUrl: "",
-    categories: ["tech"],
-  },
-  {
-    name: "ESPN Daily",
-    description: "des",
-    imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/477131.jpg",
-    categories: ["sports"],
-  },
-  {
-    name: "Business Schooled",
-    description: "des",
-    imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/328992.jpg",
-    categories: ["entrepreneur"],
-  },
-  {
-    name: "Online Marketing Made Easy",
-    description: "des",
-    imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/35157.jpg",
-    categories: ["entrepreneur"],
-  },
-  {
-    name:
-      "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
-    description: "des",
-    imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/157824.jpg",
-    categories: ["general"],
-  },
+  // {
+  //   name: "Accidental Tech Podcast",
+  //   description: "des",
+  //   imageUrl: "",
+  //   categories: ["tech"],
+  // },
+  // {
+  //   name: "ESPN Daily",
+  //   description: "des",
+  //   imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/477131.jpg",
+  //   categories: ["sports"],
+  // },
+  // {
+  //   name: "Business Schooled",
+  //   description: "des",
+  //   imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/328992.jpg",
+  //   categories: ["entrepreneur"],
+  // },
+  // {
+  //   name: "Online Marketing Made Easy",
+  //   description: "des",
+  //   imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/35157.jpg",
+  //   categories: ["entrepreneur"],
+  // },
+  // {
+  //   name:
+  //     "Broken Record with Rick Rubin, Malcolm Gladwell, Bruce Headlam and Justin Richmond",
+  //   description: "des",
+  //   imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/157824.jpg",
+  //   categories: ["general"],
+  // },
   {
     name: "Throughline",
     description:
@@ -179,7 +179,7 @@ export const podcasts = [
   },
   {
     name: "Fantasy Footballers - Fantasy Football Podcast",
-    description: "des",
+    description: `Fantasy Football at it's very best. Say goodbye to the talking heads of Fantasy Football and hello to The Fantasy Footballers. The expert trio of Andy Holloway, Jason Moore, and Mike "The Fantasy Hitman" Wright break down the world of Fantasy Football with astute analysis, strong opinions, and matchup-winning advice you can't get anywhere else. A high quality and entertaining show that will win you your Fantasy Football league -- in style. The ONE Fantasy Football Podcast you can't leave off your roster.`,
     imageUrl: "https://secureimg.stitcher.com/feedimagesplain328/56105.jpg",
     categories: ["fantasy sports"],
   },
