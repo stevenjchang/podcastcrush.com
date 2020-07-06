@@ -3,7 +3,9 @@ import React from "react";
 const Card = ({ heading, subHeading, description, imageUrl, title }) => {
   return (
     <div className="lg:w-1/2 flex flex-col justify-center items-center p-6 lg:p-20">
-      <h2 className="text-3xl text-orange-600">{title}</h2>
+      <h2 className="text-3xl text-orange-600 font-semibold underline">
+        {title}
+      </h2>
       <div className="image-container flex justify-start w-full mt-6 lg:mt-12">
         <img className="w-32" src={imageUrl} alt="" />
         <div className="ml-4 lg:ml-8">

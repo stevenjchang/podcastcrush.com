@@ -32,7 +32,9 @@ const categories = [
 const Category = ({ name }) => {
   return (
     <div className="my-12">
-      <h2 className="text-center text-4xl capitalize mb-6">{name}</h2>
+      <h2 className="text-center text-4xl capitalize mb-6 font-semibold text-orange-500 underline">
+        {name}
+      </h2>
       <ol>
         {podcasts
           .filter((podcast, idx) => podcast.categories.includes(name))
