@@ -4,7 +4,7 @@ const IntroSection = () => {
   return (
     <>
       <div id="intro-section" className="section-background">
-        <div className="container mx-auto text-center lg:w-2/5 my-32 p-16 shadow">
+        <div className="container mx-auto text-center lg:w-2/5 lg:my-32 p-16 shadow">
           <p className="text-4xl">
             I love listening to a variety of podcasts. Sometimes, I listen to
             something so good that I just want to share it.
