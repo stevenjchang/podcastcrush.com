@@ -14,6 +14,8 @@ h4 {
 /* ****************   HERO SECTION   **************** */
 #hero-section.section-background {
   /* height: 85vh; */
+  /* aqua blue #3f87a6 */
+  background: linear-gradient(45deg,#dd6b20, #f89a0e) ;
 }
 #hero-section .container {
   flex-direction: column-reverse;
