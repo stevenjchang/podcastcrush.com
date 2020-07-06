@@ -30,7 +30,7 @@ const categories = [
 
 const Category = ({ name }) => {
   return (
-    <div className="mb-32">
+    <div className="my-12">
       <h2 className="text-center text-4xl capitalize">{name}</h2>
       <ol>
         {podcasts
