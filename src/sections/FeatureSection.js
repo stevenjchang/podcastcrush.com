@@ -1,18 +1,18 @@
 import React from "react";
 
-const Card = ({ heading, subHeading, description, imageUrl }) => {
+const Card = ({ heading, subHeading, description, imageUrl, title }) => {
   return (
-    <div className="lg:w-1/2 flex flex-col justify-center items-center p-20">
-      <h2 className="text-3xl text-orange-600">Featured Episode</h2>
-      <div className="image-container flex justify-start w-full mt-12">
+    <div className="lg:w-1/2 flex flex-col justify-center items-center p-6 lg:p-20">
+      <h2 className="text-3xl text-orange-600">{title}</h2>
+      <div className="image-container flex justify-start w-full mt-6 lg:mt-12">
         <img className="w-32" src={imageUrl} alt="" />
-        <div className="ml-8">
+        <div className="ml-4 lg:ml-8">
           <h3 className="text-lg">{heading}</h3>
           <p className="text-sm text-gray-900">{subHeading}</p>
         </div>
       </div>
 
-      <div className="mt-8 px-12 py-8 bg-white rounded-lg">
+      <div className="mt-4 lg:mt-8 p-4 lg:px-12 lg:py-8 bg-white rounded-lg">
         <p className="text-sm">{description}</p>
       </div>
     </div>
@@ -23,7 +23,7 @@ const FeatureSection = () => {
   return (
     <div id="feature-section" className="section-background bg-gray-200">
       <div className="container mx-auto">
-        <div className="flex">
+        <div className="flex flex-col lg:flex-row">
           <Card {...featuredPodcastData} />
           <Card {...featuredEpisodeData} />
         </div>
