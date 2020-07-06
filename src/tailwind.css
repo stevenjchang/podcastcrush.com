@@ -632,13 +632,29 @@ h4 {
 /* ****************   HERO SECTION   **************** */
 
 #hero-section.section-background {
-  height: 85vh;
+  /* height: 85vh; */
+}
+
+#hero-section .container {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 1024px) {
+  #hero-section .container {
+    flex-direction: row;
+  }
 }
 
 #hero-section h1 {
-  font-size: 4rem;
+  font-size: 2.6rem;
   font-family: 'Yellowtail', cursive;
   letter-spacing: 3.5px;
+}
+
+@media (min-width: 1024px) {
+  #hero-section h1 {
+    font-size: 4rem;
+  }
 }
 
 #hero-section p {
@@ -721,7 +737,7 @@ h4 {
   position: absolute;
   left: -100px;
   top: 100px;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   border-radius: 50%;
   width: 55px;
   height: 55px;
@@ -731,7 +747,8 @@ h4 {
 }
 
 #all_rankings-section .card-image {
-  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
 }
 
 .space-y-0 > :not(template) ~ :not(template) {
