@@ -108,7 +108,7 @@ h4 {
   position: absolute;
   left: -100px;
   top: 100px;
-  font-size: 3.5em;
+  font-size: 3.5rem;
 
   border-radius: 50%;
   width: 55px;
@@ -118,7 +118,8 @@ h4 {
   align-items: center;
 }
 #all_rankings-section .card-image {
-  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
 }
 
 @tailwind utilities;
