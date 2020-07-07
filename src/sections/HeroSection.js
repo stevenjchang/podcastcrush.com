@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="container mx-auto flex">
           <div className="left w-full lg:w-1/2  px-12">
             <div className="c flex justify-center items-center">
-              <img className="h-auto" src="/images/icon_podcast.svg" alt="" />
+              <img className="h-auto" src="/images/podcast_steve.svg" alt="" />
             </div>
           </div>
           <div className="right lg:w-1/2 p-6 lg:p-16">
