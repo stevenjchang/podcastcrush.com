@@ -6,13 +6,17 @@ const Card = ({ heading, subHeading, description, imageUrl, title, url }) => {
       <h2 className="text-3xl text-orange-600 font-semibold underline">
         {title}
       </h2>
-      <div className="image-container flex justify-start w-full mt-6 lg:mt-12">
+      <div className="card-all image-container flex justify-start w-full mt-6 lg:mt-12">
         <a href={url} target="_blank" rel="noopener noreferrer">
           <img className="w-32" src={imageUrl} alt="" />
         </a>
         <div className="ml-4 lg:ml-8">
-          <h3 className="text-lg">{heading}</h3>
-          <p className="text-sm text-gray-900">{subHeading}</p>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <h3 className="text-lg lg:mt-4">{heading}</h3>
+          </a>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            <p className="text-sm text-gray-900">{subHeading}</p>
+          </a>
         </div>
       </div>
 

@@ -51,7 +51,7 @@ const Category = ({ name }) => {
 const Card = ({ name, description, imageUrl }) => {
   return (
     <div className="flex justify-center">
-      <div className="relative flex flex-col lg:flex-row card-inner lg:border lg:mb-8 lg:my-8 p-8 lg:p-12 w-full lg:w-2/3 ">
+      <div className="card-lg relative flex flex-col lg:flex-row card-inner lg:mb-8 lg:my-8 p-8 lg:p-12 w-full lg:w-2/3 ">
         <img
           className="card-image self-center lg:self-start m-2"
           src={imageUrl}
