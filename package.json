@@ -18,11 +18,12 @@
     "watch": "^1.0.2"
   },
   "scripts": {
-    "start": "npm run build:style && react-scripts start",
-    "build": "npm run build:style && react-scripts build",
-    "build:prod": "NODE_ENV=production npm run build:style && react-scripts build",
-    "build:style": "postcss src/styles/index.css -o src/tailwind.css",
-    "watch": "watch 'npm run build:style' src/styles",
+    "start": "npm run build:css && react-scripts start",
+    "build": "NODE_ENV=production npm run build:css && react-scripts build",
+    "build:dev": "npm run build:css && react-scripts build",
+    "build:css": "postcss src/styles/index.css -o src/tailwind.css",
+    "watch:css": "postcss src/styles/index.css -o src/tailwind.css --watch",
+    "watch": "watch 'npm run build:css' src/styles",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
