@@ -7,6 +7,8 @@
   - https://blog.logrocket.com/create-react-app-and-tailwindcss/
 - #### additional article on postcss + create-react-app (did not use, but helpful to understand postcss)
 - https://dev.to/puritanic/add-postcss-to-create-react-app--5hj8
+- #### Troubleshoot PurgeCSS stripping out default fonts, etc
+  - https://github.com/tailwindlabs/discuss/issues/277
 
 ### Import path (Absolute) - using jsconfig.json file
 

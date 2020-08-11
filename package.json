@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "npm run build:css && react-scripts start",
+    "develop": "npm-run-all --parallel watch:css start",
     "build": "NODE_ENV=production npm run build:css && react-scripts build",
     "build:dev": "npm run build:css && react-scripts build",
     "build:css": "postcss src/styles/index.css -o src/tailwind.css",
