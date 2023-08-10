@@ -80,6 +80,13 @@ export const podcasts = [
     categories: ["economics", "startup"],
   },
   {
+    name: "Acquired",
+    description:
+      "Every company has a story. Acquired goes behind the scenes of the biggest tech acquisitions and IPOs of all time.",
+    imageUrl: getImagePath("acquired.jpg"),
+    categories: ["tech"],
+  },
+  {
     name: "Equity",
     description:
       "Equity is TechCrunch’s venture capital podcast. In each episode, we bring you the numbers behind the headlines in Venture Captial. TechCrunch reporter Alex Wilhelm teams up with Danny Crichton and Natasha Mascarenhas to give a window into startup land.",
@@ -100,13 +107,7 @@ export const podcasts = [
     imageUrl: getImagePath("boom_bust_hq_trivia.jpg"),
     categories: ["tech"],
   },
-  {
-    name: "Acquired",
-    description:
-      "Every company has a story. Acquired goes behind the scenes of the biggest tech acquisitions and IPOs of all time.",
-    imageUrl: getImagePath("acquired.jpg"),
-    categories: ["tech"],
-  },
+
   {
     name: "Smart Passive Income",
     description: `Pat Flynn from The Smart Passive Income Blog reveals all of his online business and blogging strategies, income sources and killer marketing tips and tricks so you can be ahead of the curve with your online business or blog. Discover how you can create multiple passive income streams that work for you so that you can have the time and freedom to do what you love, whether it's traveling the world, or just living comfortably at home. `, //Although Pat confesses he is not a millionaire, he's been supporting his family 100% with passive income generated online, easily earning a six-figure salary while working only a few hours a week. Automation, outsourcing, crowdsourcing, search engine optimization, building authority and trust, niche sites, social media,
@@ -224,3 +225,21 @@ export const podcasts = [
 // personality hacker podcast
 // up first
 // fantasy sports
+
+/*
+Podcasts
+  name
+  description
+  image
+  categories
+  headline
+
+Episode 
+  podcast_name
+  episode_name
+  timeStamp
+  summary_of_point
+  commentary
+  podcast_url
+  
+*/
