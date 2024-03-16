@@ -1,45 +1,47 @@
-import React from "react";
+import React from 'react';
 
-import { podcasts } from "data/podcasts.js";
+import { podcasts } from 'data/podcasts.js';
 const categories = [
   {
-    name: "sports",
+    name: 'sports',
   },
   {
-    name: "general",
+    name: 'general',
   },
   {
-    name: "tech",
+    name: 'tech',
   },
+  // {
+  //   name: 'economics', // money?
+  // },
+  // {
+  //   name: 'entertainment',
+  // },
   {
-    name: "economics", // money?
+    name: 'entrepreneurship',
   },
-  {
-    name: "entertainment",
-  },
-
-  {
-    name: "politics",
-  },
-  {
-    name: "coding",
-  },
-  {
-    name: "fantasy sports",
-  },
+  // {
+  //   name: 'politics',
+  // },
+  // {
+  //   name: 'coding',
+  // },
+  // {
+  //   name: 'fantasy sports',
+  // },
 ];
 
 const Category = ({ name }) => {
   return (
-    <div className="my-12">
-      <h2 className="text-center text-4xl capitalize mb-6 font-semibold text-orange-500 underline">
+    <div className='my-12'>
+      <h2 className='text-center text-4xl capitalize mb-6 font-semibold text-orange-500 underline'>
         {name}
       </h2>
       <ol>
         {podcasts
           .filter((podcast, idx) => podcast.categories.includes(name))
           .map((podcast, idx) => (
-            <li className="" key={idx}>
+            <li className='' key={idx}>
               <Card {...podcast} />
             </li>
           ))}
@@ -50,17 +52,17 @@ const Category = ({ name }) => {
 
 const Card = ({ name, description, imageUrl }) => {
   return (
-    <div className="flex justify-center">
-      <div className="card-lg relative flex flex-col lg:flex-row card-inner lg:mb-8 lg:my-8 p-8 lg:p-12 w-full lg:w-2/3 ">
+    <div className='flex justify-center'>
+      <div className='card-lg relative flex flex-col lg:flex-row card-inner lg:mb-8 lg:my-8 p-8 lg:p-12 w-full lg:w-2/3 '>
         <img
-          className="card-image self-center lg:self-start m-2"
+          className='card-image self-center lg:self-start m-2'
           src={imageUrl}
-          alt=""
+          alt=''
         />
-        <div className="lg:pl-12 text-center lg:text-left">
-          <h3 className="mb-4 mt-4 lg:mt-0">{name}</h3>
+        <div className='lg:pl-12 text-center lg:text-left'>
+          <h3 className='mb-4 mt-4 lg:mt-0'>{name}</h3>
           {/* <h4 className="mb-8">Episode: Why this is important</h4> */}
-          <p className="text-sm">{description}</p>
+          <p className='text-sm'>{description}</p>
         </div>
       </div>
     </div>
@@ -69,8 +71,8 @@ const Card = ({ name, description, imageUrl }) => {
 
 const PodcastListAllRankings = () => {
   return (
-    <div id="all_rankings-section" className="section-background">
-      <div className="container mx-auto">
+    <div id='all_rankings-section' className='section-background'>
+      <div className='container mx-auto'>
         {categories.map((category, idx) => (
           <Category key={idx} {...category} />
         ))}
